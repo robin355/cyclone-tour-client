@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Go wild at national parks",
+        "price": "$120",
+        "image": "https://images.unsplash.com/photo-1599844240448-6c2b0e8365cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "description": "Get Wild is an edge-of-your-seat dice game, where players race to restore ecosystems by returning animals to their respective parks. Roll the dice as fast as you can to be the one to have a park with only the required animals before other players. Showcasing 12 iconic National Parks with custom illustrations and fun facts about each park and the 6 featured animals, players will learn while having fun. It’s a wild dexterity game that features dice-rolling, habitat restoration fun for the whole family!"
+    },
+    {
+        "name": "Jungle safari for families",
+        "price": "$250",
+        "image": "https://images.unsplash.com/photo-1595862670114-c96cc6876a2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "description": "Enhancing the experience for families are the guides that accompany you out into the bush. They are experts in their field and have decades of experience in keeping everyone engaged. On family safaris, their experience and enthusiasm shines through; the kids become immersed in the wild world around them."
+    },
+    {
+        "name": "Educational trips in wild",
+        "price": "$500",
+        "image": "https://images.unsplash.com/photo-1521118414656-4351df06d791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "description": "Here at UK School Trips, we view Wildlife as an area of the curriculum that holds great significance. With climate change becoming an ever-increasing concern in our society, we believe that students should learn about the importance of wildlife and all it has to offer."
+    },
+    {
+        "name": "Go wild at new place",
+        "price": "$120",
+        "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "description": "Go wild for a while means to enjoy life for a while in an uncontrolled manner. EXPLANATION: 'Go wild for a while' is an idiomatic phrase. It is used as an imperative. It refers to uncontrolled, loud action of celebration for a while"
+    },
+    {
+        "name": "Marine diving excursions",
+        "price": "$250",
+        "image": "https://images.unsplash.com/photo-1596017960634-c642e7096d53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "description": "Book Your Next Dive Vacation With PADI Travel. Most Trusted Brand. Huge Selection. Exclusive Packages. No Booking Fees. Book Online Now. Highlights: Newsletter Available, Scuba Guides Available."
+    },
+    {
+        "name": "Polar arctic expeditions",
+        "price": "$500",
+        "image": "https://images.unsplash.com/photo-1604913410057-98c5e4d162ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "description": "Polar exploration is the process of exploration of the polar regions of Earth – the Arctic region and Antarctica – particularly with the goal of reaching the North Pole and South Pole, respectively. Historically, this was accomplished by explorers making often arduous travels on foot or by sled in these regions, known as a polar expedition. More recently, exploration has been accomplished with technology, particularly with satellite imagery."
+    }
+]
