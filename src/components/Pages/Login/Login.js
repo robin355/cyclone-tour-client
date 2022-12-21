@@ -20,10 +20,11 @@ const Login = () => {
         SignInEmailPassword(email, password)
             .then(result => {
                 const user = result.user;
+                form.reset()
                 const currentUser = {
                     email: user.email
                 }
-                form.reset()
+
                 toast.success('Login Success')
                 fetch(`https://cyclone-tour-server.vercel.app/jwt`, {
                     method: 'POST',
@@ -43,6 +44,7 @@ const Login = () => {
                 const errorMessage = error.message;
                 toast.warning("Please Check your password or Email")
                 setError(errorMessage)
+                form.reset()
             })
 
     }
@@ -78,8 +80,7 @@ const Login = () => {
                     <p className='text-error'>{error}</p>
                     <div className='mt-2'>
                         <button onClick={handleGoogleSign} className="btn btn-outline btn-success"><FaGoogle></FaGoogle> Google</button>
-                        <button className="btn btn-outline btn-success "><FaGithub></FaGithub> GitHub</button>
-
+                        <button className="btn btn-outline btn-success ml-2 "><FaGithub></FaGithub> GitHub</button>
                     </div>
 
                 </form>

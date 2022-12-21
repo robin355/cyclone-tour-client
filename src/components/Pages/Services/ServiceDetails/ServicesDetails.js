@@ -54,9 +54,6 @@ const ServicesDetails = () => {
             navigate('/login')
         }
     }
-
-
-
     return (
         <div>
             <div className='course-container mt-3'>

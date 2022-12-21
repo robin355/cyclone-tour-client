@@ -55,19 +55,19 @@ const SignUp = () => {
                 <form onSubmit={handleSignUp}>
                     <div className='form-control'>
                         <label htmlFor="name">Full Name</label>
-                        <input type="text" name="fullName" id="" placeholder='Your Full Name' required />
+                        <input type="text" name="fullName" id="" required />
                     </div>
                     <div className='form-control'>
                         <label htmlFor="photourl">PhotoURL</label>
-                        <input type="text" name="photourl" id="" placeholder='Your PhotoURL' required />
+                        <input type="text" name="photourl" id="" required />
                     </div>
                     <div className='form-control'>
                         <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="" placeholder='Your Email' required />
+                        <input type="email" name="email" id="" required />
                     </div>
                     <div className='form-control'>
                         <label htmlFor="password">Password</label>
-                        <input type="password" name="password" id="" placeholder='Your Password' required />
+                        <input type="password" name="password" id="" required />
                     </div>
                     <input className='btn-submit' type="submit" value="Register" />
                     <p>Already have an accound?<Link to='/login'>Login</Link></p>

@@ -16,7 +16,7 @@ const Service = ({ service }) => {
                 </PhotoProvider>
                 <h2 className='text-2xl'>{name}</h2>
                 <h3 className='text-red-500 text-xl'>Price: {price}</h3>
-                <p>{description.slice(0, 100)}...</p>
+                <p>{description}</p>
                 <button className='btn-courses'><Link to={`/services/${_id}`} className='text-link'><h3>Travel Details</h3></Link></button>
             </div>
         </div>

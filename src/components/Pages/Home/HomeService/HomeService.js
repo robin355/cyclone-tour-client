@@ -13,7 +13,7 @@ const HomeService = () => {
     return (
         <div >
             <h2 className='text-5xl text-center text-orange-600 mt-6'>Travel Blog Service</h2>
-            <p className='text-center'>We have a unique way of meeting your adventurous expectations!</p>
+            <p className='text-center mt-2'>"We have a unique way of meeting your adventurous expectations!"</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-3'>
                 {
                     serviceLimit.map(limitserv => <DisplayHomeService key={limitserv._id} limitserv={limitserv}></DisplayHomeService>)
