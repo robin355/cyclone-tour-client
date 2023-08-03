@@ -8,7 +8,22 @@ const Service = ({ service }) => {
 
     return (
         <div>
-            <div className='course-container mt-3'>
+            <div className="card lg:w-96 bg-base-100 shadow-xl">
+            <PhotoProvider>
+                    <PhotoView src={image}>
+                        <img src={image} alt="" />
+                    </PhotoView>
+                </PhotoProvider>
+  <div className="card-body">
+    <h2 className="card-title">{name}</h2>
+    <h3 className='text-red-500 text-xl'>Price: {price}</h3>
+    <p>{description}</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary"><Link to={`/services/${_id}`} className='text-link'><h3>Travel Details</h3></Link></button>
+    </div>
+  </div>
+</div>
+            {/* <div className='course-container mt-3'>
                 <PhotoProvider>
                     <PhotoView src={image}>
                         <img src={image} alt="" />
@@ -18,7 +33,7 @@ const Service = ({ service }) => {
                 <h3 className='text-red-500 text-xl'>Price: {price}</h3>
                 <p>{description}</p>
                 <button className='btn-courses'><Link to={`/services/${_id}`} className='text-link'><h3>Travel Details</h3></Link></button>
-            </div>
+            </div> */}
         </div>
     );
 };
