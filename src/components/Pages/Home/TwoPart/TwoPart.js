@@ -3,8 +3,8 @@ import { FaCalendarCheck, FaUserAlt, FaDollarSign, FaBolt, FaWallet, FaBacon } f
 const TwoPart = () => {
     return (
         <div>
-            <h3 className='text-orange-600 text-3xl text-center'>My Services</h3>
-            <p className='text-center'>“Adventure is worthwhile”</p>
+            <h3 className='text-orange-600 text-3xl text-center mt-[80px]'>My Services</h3>
+            <p className='text-center mb-[40px]'>“Adventure is worthwhile”</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-2'>
                 <div className='flex'>
                     <div>
@@ -63,8 +63,8 @@ const TwoPart = () => {
                     </div>
                 </div>
             </div>
-            <h3 className='text-orange-600 text-3xl text-center mt-3'>Lattest Blog</h3>
-            <p className='text-center'>“The trips that offered by local guides or experts for travellers”</p>
+            <h3 className='text-orange-600 text-3xl text-center mt-[80px]'>Lattest Blog</h3>
+            <p className='text-center mb-[60px]'>“The trips that offered by local guides or experts for travellers”</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 mt-3 '>
                 <div className="card card-compact  bg-base-100 shadow-xl">
                     <figure><img src="https://www.tripeasygo.com/admin/webroot/uploads/tour-package-image/2b.jpg" alt="Shoes" /></figure>

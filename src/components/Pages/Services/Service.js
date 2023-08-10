@@ -17,7 +17,7 @@ const Service = ({ service }) => {
   <div className="card-body">
     <h2 className="card-title">{name}</h2>
     <h3 className='text-red-500 text-xl'>Price: {price}</h3>
-    <p>{description}</p>
+    <p>{description.slice(0,150)}</p>
     <div className="card-actions justify-end">
       <button className="btn btn-primary"><Link to={`/services/${_id}`} className='text-link'><h3>Travel Details</h3></Link></button>
     </div>
